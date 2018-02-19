@@ -1,9 +1,8 @@
 # date-service
 
-This is the Clojure app that currently powers date.io. It's deployed
-to Heroku.
+This is the Clojure app for datetime.
 
-My current plan for date.io is to create a date/time service where
+My current plan for datetime is to create a date/time service where
 people can do calculations on dates, get information on holidays, 
 etc.
 
@@ -34,14 +33,14 @@ Other divisions:
 
 Breadcrumbs could be in a traditional date form. For example, this:
 
-[2012](http://date.io/2012)-[02](http://date.io/2012/02)-[14](http://date.io/2012/02/14)
-[09](http://date.io/2012/02/14/09):[00](http://date.io/2012/02/14/09/00)
+[2012](http://datetime.now.sh/2012)-[02](http://datetime.now.sh/2012/02)-[14](http://datetime.now.sh/2012/02/14)
+[09](http://datetime.now.sh/2012/02/14/09):[00](http://datetime.now.sh/2012/02/14/09/00)
 
 instead of:
 
-/[2012](http://date.io/2012) &raquo; [02](http://date.io/2012/02)
-&raquo; [14](http://date.io/2012/02/14) &raquo;
-[09](http://date.io/2012/02/14/09) &raquo; [00](http://date.io/2012/02/14/09/00)
+/[2012](http://datetime.now.sh/2012) &raquo; [02](http://datetime.now.sh/2012/02)
+&raquo; [14](http://datetime.now.sh/2012/02/14) &raquo;
+[09](http://datetime.now.sh/2012/02/14/09) &raquo; [00](http://datetime.now.sh/2012/02/14/09/00)
 
 It's going to be a challenge to figure out what should be GMT and what
 should be local time.
