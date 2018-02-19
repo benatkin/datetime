@@ -3,9 +3,9 @@
 
 (defhtml layout [title content]
   [:html
-   [:head [:title (str "date.io: " title)]]
+   [:head [:title (str "datetime: " title)]]
    [:body [:div.wrap
-           [:h1 "date.io"]
+           [:h1 "datetime"]
            [:h2 title]
            [:div.content content]]]])
 
